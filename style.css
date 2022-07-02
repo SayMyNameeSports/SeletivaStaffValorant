@@ -1,235 +1,170 @@
-/* menu principal supeior  */
+body{
+    background-color: grey;
+    color: aliceblue;
+    font-style: italic;
+}
 
+header{
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    background-color: black;
+}
+header img{
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    border-style: ridge;
-    border-color: red;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
- 
-    /*body*/
-
-    body{
-        background-color: rgba(17, 17, 17, 0.937);
-        color: antiquewhite;
-    }
-
-    /*header*/
-    header{
-        background-color: #0F1821;
-    }
-    /* >>  banner  << */
-    header img{
-        width: 720px;
-        margin-inline-start:425px;
-    }
-
-    /*main*/
-   main{
-    background-color: #111;
-    margin-left: 520px;
-    text-align: center;
-    max-height: 2500px;
-    max-width: 510px;
-    border-radius: 30px;
-
-   }
-
-    /* >>  explicação  << */
-
-   .descricao p{
-       font-family: arial;
-        margin: 2%;
-        color: aliceblue;
-        font-size: 14px;
-        font-style: italic;
-    }
-
-.requisitosVagas{}
-
-.requisitosVagas h4{
-
-  color: aliceblue;
+    width: auto;
+    height: 400px;
+    margin-left: 550px;
 
 }
 
-    .vagas h4{
-        margin-left: 10px;
-    
-    }
-    .vagas img{
-        padding-left: 6px ;
-        position: initial;
-        width: 100px;
-        border-radius: 50px;
-        margin: 5px;
-    }
-    .vagas a{
-      color: transparent;
-    }
+/* menu superior */
 
-    /* >>  explicação  << */
-    /*footer*/
-    footer{
+.w3-container{
+text-align: center;
+margin-left: 560px;
+width: 425px;
 
-    }
-    .footer{
+}
 
-    }
-    footer a{
-        color: aliceblue;
+.w3-bar-item .w3-button img{
 
-    }
-    footer a:hover{
-        color: lemonchiffon;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    width: 35px;
+    border-radius: 100px;
+}
 
-    }
+.w3-container img{
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    width: 35px;
+    border-radius: 100px;
+}
 
 
-/* >>  explicação  << */
-/* >>  explicação  << */
-/* >>  explicação  << */
-/* >>  explicação  << */
-/* >>  explicação  << */
-/*  mobile option */
+hr{
+    background-color: black;
+}
 
-/* menu principal supeior  */
-@media only screen and (max-width: 500px) {
+.container{
+
+border-style: ridge;
+background-color: darkgray;
+border-color: black;
+text-align: center;
 
 
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
+}
 
-      border-style: ridge;
-      border-color: red;
+/* telas menores que 900px */
+
+@media (max-width: 900px) {
+    body{
+        font-size: 20px;
+        background-color: grey;
     }
 
-    li {
-      margin-left: 30px;
-      float: left;
+    header{
+        width: 900px;
+        background-color: black;
+    }
+    header img{
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: auto;
+        height: 200px;
+        margin-left: 250px;
 
     }
 
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 10px 16px;
-      text-decoration: none;
+
+/* menu superior */
+
+.w3-container{
+    text-align: center;
+    margin-left: 190px;
+    width: 500px;
+
     }
 
-    li a:hover {
-      background-color: #111;
+    .w3-bar-item .w3-button img{
+
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
     }
 
-      /*body*/
-
-      body{
-          background-color: rgba(17, 17, 17, 0.937);
-          color: antiquewhite;
+    .w3-container img{
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
     }
 
-      /*header*/
 
-      /* >>  banner  << */
-       header img{
-        margin: 0;
-        max-width: 450px;
-      }
+}
 
-      /*main*/
-     main{
-      background-color: #111;
-      margin-left:80px;
-      text-align: center;
-      height:900px;
-      width: 350px;
-      border-radius: 15px;
+/* telas menores que 600px */
 
-     }
+@media (max-width: 600px) {
+    body{
+        font-size: 14px;
+        background-color: grey;
+    }
 
-      /* >>  explicação  << */
-      section .secao-principal{
-        max-width: 400px;
+    header{
+        width: 540px;
+        background-color: black;
+    }
+    header img{
+        background-size: cover;
+        background-repeat: no-repeat;
 
-      }
+        width: auto;
+        height: 400px;
+        margin-left: 60px;
 
-     .descricao p{
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          margin: 2%;
-          color: aliceblue;
-          font-size: 13px;
-      }
+    }
 
-  .requisitosVagas{}
 
-  .requisitosVagas h4{
+/* menu superior */
 
-    color: aliceblue;
+.w3-container{
+    text-align: center;
+    margin: auto;
+    width: 500px;
 
-  }
+    }
 
-      .vagas h4{
-          margin-left: 10px;
+    .w3-bar-item .w3-button img{
 
-      }
-      .vagas img{
-          padding-left: 6px ;
-          width: 50px;
-          border-radius: 50px;
-          margin: 3px;
-      }
-      .vagas a{
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
+    }
 
-      }
-  
-      /* >>  explicação  << */
-      /*footer*/
-      footer{
-          padding-top:5%;
-  
-      }
-      .footer{
-  
-      }
-      footer a{
-          color: aliceblue;
-  
-      }
-      footer a:hover{
-          color: lemonchiffon;
-  
-      }
-  
-  }
-  /* >>  explicação  << */
-  /* >>  explicação  << */
-  /* >>  explicação  << */
-  /* >>  explicação  << */
-  /* >>  explicação  << */
-  
+    .w3-container img{
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
+    }
+
+
+}
